@@ -1004,6 +1004,8 @@ button,a {
 .profile-copy strong {
     color: var(--text);
     font-weight: 500;
+    -webkit-hyphens: none;
+    hyphens: none;
 }
 
 .profile-copy .profile-intro {
