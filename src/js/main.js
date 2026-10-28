@@ -86,6 +86,7 @@ if (carousel) {
     let scrollEndTimer;
     let programmaticScroll = false;
 
+    carousel.querySelector('.carousel-total').textContent = String(cards.length).padStart(2, '0');
     carousel.querySelector('.carousel-toolbar').hidden = false;
     dotsContainer.hidden = false;
     const dots = cards.map((card, index) => {

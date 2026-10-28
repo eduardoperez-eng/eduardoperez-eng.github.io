@@ -1164,6 +1164,10 @@ button,a {
     object-fit: contain;
 }
 
+.tech-card[data-tech="MySQL"] .tech-logo {
+    filter: brightness(2) saturate(.65);
+}
+
 .tech-card h3 {
     margin: 0 0 5px;
     font: 500 21px var(--title);
