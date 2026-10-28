@@ -1156,29 +1156,12 @@ button,a {
     letter-spacing: .06em;
 }
 
-.tech-logo,.tech-letter {
+.tech-logo {
     display: block;
-    width: 46px;
-    height: 46px;
-    margin: 34px 0 25px;
-}
-
-.tech-letter {
-    display: grid;
-    place-items: end;
-    padding: 3px 4px;
-    border-radius: 4px;
-    font: 700 25px/1 var(--body);
-}
-
-.tech-js {
-    color: #13151b;
-    background: #e0ca7b;
-}
-
-.tech-ts {
-    color: #edf5ff;
-    background: #3779ad;
+    width: 56px;
+    height: 56px;
+    margin: 28px 0 21px;
+    object-fit: contain;
 }
 
 .tech-card h3 {
@@ -1941,10 +1924,10 @@ button,a {
     .tech-number {
         font-size: 7px;
     }
-    .tech-logo,.tech-letter {
-        margin-block: 33px 24px;
-        width: 40px;
-        height: 40px;
+    .tech-logo {
+        margin-block: 29px 20px;
+        width: 48px;
+        height: 48px;
     }
     .tech-card h3 {
         font-size: 18px;

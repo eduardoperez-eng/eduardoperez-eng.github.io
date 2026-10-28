@@ -13,7 +13,7 @@ Portafolio personal de un desarrollador de software en formación en Riwi, desde
 
 El carrusel permite avanzar y retroceder, seleccionar cualquiera de las siete tecnologías, navegar con las flechas del teclado y usar Inicio/Fin. Tiene reproducción automática y un botón para pausarla; se detiene al interactuar, al salir de la pantalla o al ocultar la pestaña. Con la preferencia de movimiento reducido, inicia pausado.
 
-El menú móvil incluye cierre con Escape y navegación por teclado. El contenido permanece visible si JavaScript no está disponible. Las imágenes principales se sirven desde el proyecto, y las marcas visuales de tecnologías se dibujan con SVG y CSS.
+El menú móvil incluye cierre con Escape y navegación por teclado. El contenido permanece visible si JavaScript no está disponible. Las imágenes y los siete iconos SVG de tecnologías se sirven desde el proyecto. Los iconos proceden de [Devicon](https://github.com/devicons/devicon); su revisión, fuentes y licencia se conservan en public/img/technologies/.
 
 ## Estructura
 
@@ -22,6 +22,7 @@ El menú móvil incluye cierre con Escape y navegación por teclado. El contenid
 - src/js/main.js: navegación, progreso, apariciones y carrusel.
 - src/view/mascotas.html: archivo personal.
 - public/img/: fotografías y captura del proyecto destacado.
+- public/img/technologies/: iconos SVG originales, fuentes y licencia de Devicon.
 
 ## Vista previa local
 
