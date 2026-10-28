@@ -379,8 +379,10 @@ button,a {
 
 .hero-visual {
     position: relative;
+    width: min(80%,400px);
     min-width: 0;
     margin: 0;
+    justify-self: center;
 }
 
 .hero-visual::before {
@@ -1726,6 +1728,9 @@ button,a {
     .hero-grid {
         grid-template-columns: 1fr;
         gap: 31px;
+    }
+    .hero-visual {
+        width: min(85%,280px);
     }
     .hero-copy {
         padding: 0;
