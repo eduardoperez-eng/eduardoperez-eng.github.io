@@ -6,7 +6,6 @@ Portafolio personal de un desarrollador de software en formación en Riwi, desde
 
 - Presentación y perfil centrados en APIs, datos consistentes y reglas de negocio.
 - Proyecto destacado: [Alexa López](https://alexalopez.com.co/), con una captura real y enlace al sitio publicado.
-- Ejercicios de formación sobre inventarios y órdenes, identificados como tales y con representaciones conceptuales.
 - Carrusel de Python, JavaScript, TypeScript, Node.js, React, PostgreSQL y NestJS.
 - Contacto a través del perfil de GitHub y archivo visual personal.
 
