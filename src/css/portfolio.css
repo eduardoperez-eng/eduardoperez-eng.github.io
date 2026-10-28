@@ -1168,6 +1168,10 @@ button,a {
     filter: brightness(2) saturate(.65);
 }
 
+.tech-card[data-tech="Prisma"] .tech-logo {
+    filter: brightness(0) invert(1);
+}
+
 .tech-card h3 {
     margin: 0 0 5px;
     font: 500 21px var(--title);
@@ -1946,7 +1950,12 @@ button,a {
         padding: 2px 4px;
     }
     .carousel-bottom {
-        gap: 7px;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .carousel-dots {
+        flex-basis: 100%;
+        justify-content: flex-end;
     }
     .carousel-bottom>span:first-child {
         font-size: 8px;

@@ -6,14 +6,14 @@ Portafolio personal de un desarrollador de software en formación en Riwi, desde
 
 - Presentación y perfil centrados en APIs, datos consistentes y reglas de negocio.
 - Proyecto destacado: [Alexa López](https://alexalopez.com.co/), con una captura real y enlace al sitio publicado.
-- Carrusel de Python, JavaScript, TypeScript, Node.js, React, PostgreSQL, MySQL y NestJS.
+- Carrusel de Python, JavaScript, TypeScript, Node.js, React, PostgreSQL, MySQL, NestJS, TypeORM, Prisma y Zod.
 - Contacto a través del perfil de GitHub y archivo visual personal.
 
 ## Interacciones y accesibilidad
 
-El carrusel permite avanzar y retroceder, seleccionar cualquiera de las ocho tecnologías, navegar con las flechas del teclado y usar Inicio/Fin. Tiene reproducción automática y un botón para pausarla; se detiene al interactuar, al salir de la pantalla o al ocultar la pestaña. Con la preferencia de movimiento reducido, inicia pausado.
+El carrusel permite avanzar y retroceder, seleccionar cualquiera de las once tecnologías, navegar con las flechas del teclado y usar Inicio/Fin. Tiene reproducción automática y un botón para pausarla; se detiene al interactuar, al salir de la pantalla o al ocultar la pestaña. Con la preferencia de movimiento reducido, inicia pausado.
 
-El menú móvil incluye cierre con Escape y navegación por teclado. El contenido permanece visible si JavaScript no está disponible. Las imágenes y los ocho iconos SVG de tecnologías se sirven desde el proyecto. Los iconos proceden de [Devicon](https://github.com/devicons/devicon) y del [sitio oficial de Node.js](https://nodejs.org/en/about/branding); sus fuentes y la licencia de Devicon se conservan en public/img/technologies/.
+El menú móvil incluye cierre con Escape y navegación por teclado. El contenido permanece visible si JavaScript no está disponible. Las imágenes y los once iconos SVG de tecnologías se sirven desde el proyecto. Los iconos proceden de [Devicon](https://github.com/devicons/devicon) y de los sitios oficiales de [Node.js](https://nodejs.org/en/about/branding) y [Zod](https://zod.dev/); sus fuentes y licencias se conservan en public/img/technologies/.
 
 ## Estructura
 
