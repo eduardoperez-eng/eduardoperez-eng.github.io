@@ -34,6 +34,6 @@ Abre http://127.0.0.1:4174/. También puedes abrir index.html directamente.
 
 ## Publicación
 
-El portafolio se publica con GitHub Pages desde la rama main de eduardoperez-eng/Ares19punk.github.io.
+El portafolio se publica con GitHub Pages desde la rama main de eduardoperez-eng/eduardoperez-eng.github.io.
 
-Dirección pública: https://eduardoperez-eng.github.io/Ares19punk.github.io/
+Dirección pública: https://eduardoperez-eng.github.io/
