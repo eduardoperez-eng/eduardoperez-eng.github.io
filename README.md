@@ -1,30 +1,39 @@
-# Portafolio de Eduardo Pérez
+# Portafolio de Eduardo de Jesús Pérez López
 
-Portafolio personal de una sola página con una identidad **cyberpunk profesional**, enfocado en desarrollo de software, automatización e inteligencia artificial.
+Portafolio personal de un desarrollador de software en formación en Riwi, desde Barranquilla, Colombia. El contenido conecta backend, auditoría contable y procesos de negocio, con una identidad visual oscura y acentos cian.
 
-## Características
+## Contenido
 
-- Diseño responsive para escritorio, tablet y móvil.
-- Navegación accesible con menú móvil y estados activos.
-- Secciones de perfil, especialidades, proyectos, herramientas y contacto.
-- Animaciones sutiles con soporte para `prefers-reduced-motion`.
-- Metadatos SEO y Open Graph preparados para compartir el sitio.
-- Página secundaria de archivo personal integrada al mismo sistema visual.
+- Presentación y perfil centrados en APIs, datos consistentes y reglas de negocio.
+- Proyecto destacado: [Alexa López](https://alexalopez.com.co/), con una captura real y enlace al sitio publicado.
+- Ejercicios de formación sobre inventarios y órdenes, identificados como tales y con representaciones conceptuales.
+- Carrusel de Python, JavaScript, TypeScript, Node.js, React, PostgreSQL y NestJS.
+- Contacto a través del perfil de GitHub y archivo visual personal.
 
-## Estructura principal
+## Interacciones y accesibilidad
 
-```text
-index.html                 Página principal
-src/css/portfolio.css      Sistema visual y diseño responsive
-src/js/main.js             Navegación, progreso y animaciones
-src/view/mascotas.html     Archivo visual personal
-public/img/                Imágenes del portafolio
-```
+El carrusel permite avanzar y retroceder, seleccionar cualquiera de las siete tecnologías, navegar con las flechas del teclado y usar Inicio/Fin. Tiene reproducción automática y un botón para pausarla; se detiene al interactuar, al salir de la pantalla o al ocultar la pestaña. Con la preferencia de movimiento reducido, inicia pausado.
 
-## Ejecutar en local
+El menú móvil incluye cierre con Escape y navegación por teclado. El contenido permanece visible si JavaScript no está disponible. Las imágenes principales se sirven desde el proyecto, y las marcas visuales de tecnologías se dibujan con SVG y CSS.
 
-El proyecto no requiere compilación ni dependencias. Puedes abrir `index.html` directamente o servir la carpeta con cualquier servidor HTTP local.
+## Estructura
+
+- index.html: página principal y contenido.
+- src/css/portfolio.css: sistema visual, carrusel, archivo y estilos responsive.
+- src/js/main.js: navegación, progreso, apariciones y carrusel.
+- src/view/mascotas.html: archivo personal.
+- public/img/: fotografías y captura del proyecto destacado.
+
+## Vista previa local
+
+No requiere compilación ni dependencias. Desde esta carpeta:
+
+    python -m http.server 4174 --bind 127.0.0.1
+
+Abre http://127.0.0.1:4174/. También puedes abrir index.html directamente.
 
 ## Publicación
 
-La estructura está preparada para GitHub Pages en el repositorio `Ares19punk.github.io`.
+El portafolio se publica con GitHub Pages desde la rama main de eduardoperez-eng/Ares19punk.github.io.
+
+Dirección pública: https://eduardoperez-eng.github.io/Ares19punk.github.io/
