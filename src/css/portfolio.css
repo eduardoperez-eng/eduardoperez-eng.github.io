@@ -995,6 +995,10 @@ button,a {
     color: var(--muted);
     font-size: 14px;
     line-height: 1.95;
+    text-align: justify;
+    text-align-last: start;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 
 .profile-copy strong {
