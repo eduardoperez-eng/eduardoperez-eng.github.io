@@ -576,6 +576,28 @@ button,a {
     background: var(--bg-soft);
 }
 
+.featured-project+.featured-project {
+    margin-top: 28px;
+}
+
+.project-cover-link {
+    position: relative;
+    display: block;
+}
+
+.project-preview-note {
+    margin: 0;
+    padding: 11px 14px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+.featured-content>p:not([class])+p:not([class]) {
+    margin-top: 12px;
+}
+
 .featured-preview {
     position: relative;
     align-self: center;

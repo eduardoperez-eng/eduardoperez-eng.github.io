@@ -6,6 +6,7 @@ Portafolio personal de un desarrollador de software en formación en Riwi, desde
 
 - Presentación y perfil centrados en APIs, datos consistentes y reglas de negocio.
 - Proyecto destacado: [Alexa López](https://alexalopez.com.co/), con una captura real y enlace al sitio publicado.
+- Experiencia aplicada: control de consumos e inventarios en C. I. La Samaria mediante Excel y macros, presentado como herramienta interna con una portada ilustrativa y datos de ejemplo.
 - Carrusel de Python, JavaScript, TypeScript, Node.js, React, PostgreSQL, MySQL, NestJS, TypeORM, Prisma y Zod.
 - Contacto a través del perfil de GitHub y archivo visual personal.
 
@@ -21,7 +22,7 @@ El menú móvil incluye cierre con Escape y navegación por teclado. El contenid
 - src/css/portfolio.css: sistema visual, carrusel, archivo y estilos responsive.
 - src/js/main.js: navegación, progreso, apariciones y carrusel.
 - src/view/mascotas.html: archivo personal.
-- public/img/: fotografías y captura del proyecto destacado.
+- public/img/: fotografías, captura de Alexa López y portada ilustrativa de C. I. La Samaria.
 - public/img/technologies/: iconos SVG, fuentes y licencia de Devicon.
 
 ## Vista previa local
