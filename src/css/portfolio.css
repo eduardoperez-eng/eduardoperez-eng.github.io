@@ -409,10 +409,10 @@ button,a {
 
 .portrait-frame>img {
     width: 100%;
-    height: clamp(470px,43vw,580px);
+    height: auto;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
-    object-position: center 39%;
-    filter: saturate(.78);
+    object-position: center;
 }
 
 .portrait-caption {
@@ -1564,9 +1564,6 @@ button,a {
         font-size: 9px;
         margin-top: 23px;
     }
-    .portrait-frame>img {
-        height: 465px;
-    }
     .portrait-caption {
         left: 20px;
         right: 20px;
@@ -1755,10 +1752,6 @@ button,a {
     .hero-focus {
         font-size: 10px;
         margin-top: 25px;
-    }
-    .portrait-frame>img {
-        height: clamp(390px,110vw,540px);
-        object-position: center 37%;
     }
     .portrait-caption {
         bottom: 22px;
