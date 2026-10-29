@@ -6,7 +6,7 @@ Portafolio personal de un desarrollador de software en formación en Riwi, desde
 
 - Presentación y perfil centrados en APIs, datos consistentes y reglas de negocio.
 - Proyecto destacado: [Alexa López](https://alexalopez.com.co/), con una captura real y enlace al sitio publicado.
-- Experiencia aplicada: control de consumos e inventarios en C. I. La Samaria mediante Excel y macros, presentado como herramienta interna con una portada ilustrativa y datos de ejemplo.
+- Experiencia como analista de inventarios en C. I. La Samaria, con una herramienta interna en Excel y macros para comparar consumos estándar y reales. Incluye una portada ilustrativa y datos de ejemplo.
 - Carrusel de Python, JavaScript, TypeScript, Node.js, React, PostgreSQL, MySQL, NestJS, TypeORM, Prisma y Zod.
 - Contacto a través del perfil de GitHub y archivo visual personal.
 
